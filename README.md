@@ -16,15 +16,9 @@ A [Vite](https://vitejs.dev/) powered WebExtension ([Chrome](https://developer.c
 │   ├── assets             # Global assets (images, styles)
 │   ├── background         # Extension background script
 │   ├── components         # Shared Vue components. Some prebuilt components are available like `Header`, `Footer`, `LoadingSpinner`, `ErrorBoundary`, `EmptyState` etc
-│   ├── composables        # Vue composables/hooks
-│   │   ├── useBrowserStorage  # Browser storage for both `sync` and `local`
-│   │   ├── useLocale  # Manage locale in your extension
-│   │   ├── useTheme  # Manage theme in your extension
 │   ├── content-script     # Content scripts injected into pages
 │   ├── devtools          # Chrome devtools panel
-│   ├── locales           # i18n translation files
 │   ├── offscreen         # Offscreen pages (audio, recording)
-│   ├── stores            # Pinia stores
 │   ├── types             # TypeScript type definitions
 │   ├── ui                # UI pages
 │   │   ├── action-popup  # Browser toolbar popup
